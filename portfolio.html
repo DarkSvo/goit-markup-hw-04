@@ -13,23 +13,29 @@
 </head>
 <body>
         <!--шапка-->
-        <header class="golova">   
-        <div class="container header-box">
-        <a class="link logo"  href="/">
-            Web<span class="type">Studio</span> 
-        </a>
-        <nav class="header-nav">
-            <ul class="list header-list">
-            <li class="nav-item"><a class="link header focus  "  href="./index.html">Студия</a></li>
-            <li class="nav-item"><a class="link header focus active"  href="./portfolio.html">Портфолио</a></li>
-            <li class="nav-item"><a class="link header focus"  href="">Контакты</a></li>
-            </ul>
-        </nav>
-        
-            <a class="link header focus contact-head"  href="mailti:info@devstudio.com">info@devstudio.com</a>
-            <a class="link header focus contact-head"  href="tel:+380961111111">+38 096 111 11 11</a>
-        
-        </div>
+        <header class="header">
+            <div class="container header-box">
+                <a class="header-logo link" href=""> <span class="logo-color">Web</span>Studio</a>
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav link" href="./index.html">Студия</a></li>
+                        <li class="nav-item"><a class="nav link active" href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-item"><a class="nav link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                    <a class="header-contact link" href="mailto:info@devstudio.com">
+                        <svg class="header-contact-icon" width="16" height="12"> 
+                            <use href="image/icons.svg#icon-email-icon" > </use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                    <a class="header-contact link" href="tel:+380961111111">
+                        <svg class="header-contact-icon" width="10" height="16"> 
+                            <use href="image/icons.svg#icon-phone-icon"> </use>
+                        </svg> 
+                        +38 096 111 11 11
+                    </a>
+            </div>
     </header>
       <!--section portfolio-->  
     <main>
@@ -103,23 +109,52 @@
     </main>    
 </body>
 <!--данные о компании-->
-<footer class="ftr">
-    <div class="container ">
-    <a class="link logo foo "  href="/">
-        Web<span class="type foot">Studio</span> 
-    </a>
-        <ul class="list down">
-            <li class="footr">
-                <a class="link down-footer" href="https://goo.gl/maps/86TNkvDwnBmECVKZ8"
-                target="_blank"
-                rel="noreferrer noopener">
-                г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-        
-            <li class="footr"><a class="link down-footer bace"  href="mailto:info@example.com">info@example.com</a></li>
-            <li class="footr"><a class="link down-footer bace"  href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+<footer class="footer-block">
+    <div class="container footer-box">
+        <div class="address-box">
+            <a class="footer-logo link" href=""> <span class="logo-color">Web</span>Studio</a>
+            <address>
+                <a class="address link" href="https://goo.gl/maps/dTcquC3XmZnBBEXw5" target="_blank" rel="noopener noreferrer">г.
+                    Киев, пр-т Леси Украинки, 26</a>
+            </address>
+            <a class="footer-contact link" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
+            <a class="footer-contact link" href="tel:+380961111111"><span>+38 096 111 11 11</span></a>
+
+        </div>
+        <div class="join-us-box">   
+            <p class="join-us-title">присоединяйтесь</p>
+            <ul class="list join-us-list">
+                <li class="join-us-item">
+                    <a href="" class="join-us-link">
+                        <svg class="join-us-logo" width="20" height="20">
+                            <use href="./image/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-item">
+                    <a href="" class="join-us-link">
+                        <svg class="join-us-logo" width="20" height="20">
+                            <use href="./image/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-item">
+                    <a href="" class="join-us-link">
+                        <svg class="join-us-logo" width="20" height="20">
+                            <use href="./image/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-item">
+                    <a href="" class="join-us-link">
+                        <svg class="join-us-logo" width="20" height="20">
+                            <use href="./image/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </footer>
-</html>
+</body>
 </html>
